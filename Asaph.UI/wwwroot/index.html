@@ -5,10 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" 
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Asaph.UI</title>
+    <title>MCOC Worship</title>
     <base href="/" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           rel="stylesheet" />
+    <link href="css/loading.css" rel="stylesheet" />
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
@@ -16,7 +17,53 @@
 </head>
 
 <body>
-    <div id="app">Loading...</div>
+    <div id="app">
+        <div class="loading-page">
+            <div class="loading-page-content loading-icon">
+                <svg width="344"
+                     height="344"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     overflow="hidden">
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect x="2028"
+                                      y="1066"
+                                      width="344"
+                                      height="344" />
+                            </clipPath>
+                        </defs>
+                <g clip-path="url(#clip0)"
+                   transform="translate(-2028 -1066)">
+                    <path d="M2108 1279.5C2108 1228.97 2149.19 1188 2200 1188 2250.81 1188 2292 
+                             1228.97 2292 1279.5 2292 1330.03 2250.81 1371 2200 1371 2149.19 1371 
+                             2108 1330.03 2108 1279.5Z" 
+                          stroke="#7F7F7F" 
+                          stroke-width="13.75" 
+                          stroke-miterlimit="8" 
+                          fill="none" 
+                          fill-rule="evenodd" />
+                    <path d="M2108 1195.5C2108 1144.97 2149.19 1104 2200 1104 2250.81 1104 2292 
+                             1144.97 2292 1195.5 2292 1246.03 2250.81 1287 2200 1287 2149.19 1287
+                             2108 1246.03 2108 1195.5Z" 
+                          stroke="#5FD4FE" 
+                          stroke-width="13.75" 
+                          stroke-miterlimit="8" 
+                          fill="none" 
+                          fill-rule="evenodd" />
+                    <path d="M2035 1128C2035 1097.62 2059.62 1073 2090 1073L2310 1073C2340.38 1073 
+                             2365 1097.62 2365 1128L2365 1348C2365 1378.38 2340.38 1403 2310 
+                             1403L2090 1403C2059.62 1403 2035 1378.38 2035 1348Z" 
+                          stroke="#7F7F7F" 
+                          stroke-width="13.75" 
+                          stroke-miterlimit="8" 
+                          fill="none" 
+                          fill-rule="evenodd" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.

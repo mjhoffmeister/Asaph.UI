@@ -1,0 +1,38 @@
+﻿h1 {
+    font-weight: 400;
+}
+
+.loading-icon {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.loading-page {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+.loading-page-content {
+    width: 344px;
+    height: 344px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.50;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
