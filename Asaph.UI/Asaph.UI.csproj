@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <TrimmerRootAssembly Include="Microsoft.Authentication.WebAssembly.Msal" />
+    <TrimmerRootAssembly Include="ILLink.Descriptors.xml" />
   </ItemGroup>
 
   <ItemGroup>
