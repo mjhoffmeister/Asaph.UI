@@ -1,5 +1,6 @@
 ﻿<linker>
   <assembly fullname="MudBlazor">
+    <type fullname="MudBlazor.MudBooleanInput" preserve="all" />
     <type fullname="MudBlazor.MudSwitch" preserve="all" />
   </assembly>
 </linker>
