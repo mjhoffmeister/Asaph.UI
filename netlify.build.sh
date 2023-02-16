@@ -9,4 +9,4 @@ chmod u+x /tmp/dotnet-install.sh
 popd
 
 ## publish project to known location for subsequent deployment by Netlify
-dotnet publish -c Release -o release
+dotnet publish AsaphUI/AsaphUI.csproj -c Release -o release
